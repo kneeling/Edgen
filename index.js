@@ -81,7 +81,7 @@ async function get_question_data() {
    }
    const apiKey = '';
    const responseText = await getOpenAICompletion(apiKey, output);
-   console.log("OpenAI response:", responseText);
+   alert(responseText);
    if (responseText) {
        clickCorrectAnswer(responseText, orangeIndex);
    } else {
