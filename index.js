@@ -1,5 +1,5 @@
 async function getOpenAICompletion(apiKey, message) {
-   const url = "https://d259857b-82ef-487d-b3be-17b16b48d433-00-19rl4ckwd7lki.janeway.replit.dev";
+   const url = "http://192.168.1.244:4444";
 
 
    const params = {
